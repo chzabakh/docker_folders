@@ -1,3 +1,4 @@
+#!/bin/sh
 cat /docker_folders/p1 > /docker_folders/pf
 printf "Redirect \"/\" "https://$HOST_IP:443/\\n"" > /docker_folders/p2
 cat /docker_folders/p2 >> /docker_folders/pf
