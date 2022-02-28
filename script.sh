@@ -7,4 +7,4 @@ rm /etc/apache2/sites-available/000-default.conf
 cp /docker_folders/pf /etc/apache2/sites-available/000-default.conf
 a2enmod ssl
 a2ensite default-ssl
-service apache2 reload
+service apache2 start
