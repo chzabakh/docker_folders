@@ -1,7 +1,0 @@
-Servername 0.0.0.0
-<VirtualHost *:80>
-
-
-ServerAdmin webmaster@localhost
-DocumentRoot /var/www/html
-
